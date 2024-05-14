@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Headers - 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="{% static 'header/reset.min.css' %}" />
+    <link rel="stylesheet" href="{% static 'header/style.css' %}" />
+    <link rel="stylesheet" href="{% static 'header/header-1.css' %}" />
+  </head>
+  <body>
+
+    
+    <!-- Header Start -->
+    <header class="site-header">
+      <div class="wrapper site-header__wrapper">
+        <a href="#" class="brand">ST Lab</a>
+        <nav class="nav">
+          <button class="nav__toggle" aria-expanded="false" type="button">
+            menu
+          </button>
+          <ul class="nav__wrapper">
+            <li class="nav__item"><a href="/">Home</a></li>
+            <li class="nav__item"><a href="/adminclick">Admin</a></li>
+            <li class="nav__item"><a href="/teacherclick">Teacher</a></li>
+            <li class="nav__item"><a href="/studentclick">Student</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- Header End -->
+
+    <script src="{% static 'header/header-1.js' %}" ></script>
+  </body>
+</html>

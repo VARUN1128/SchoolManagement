@@ -1,0 +1,81 @@
+{% extends 'school/homebase.html' %}
+{% block content %}
+<style>
+
+  
+  .one{
+    display: flex; 
+    padding: 1rem; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+  }
+  
+  .three
+  {
+    padding: 1.5rem; 
+    border-radius: 0.5rem; 
+    text-align: center;
+    height: 30vh;
+
+    background-color: #ffffff; 
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);  
+  }
+
+  .four
+  {
+    margin-bottom: 0.5rem; 
+    font-size: 1.875rem;
+    line-height: 2.25rem; 
+    font-weight: 700; 
+  }
+
+    .blue{
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem; 
+      padding-left: 1rem;
+      padding-right: 1rem; 
+      border-radius: 0.5rem; 
+      font-weight: 700; 
+      color: #ffffff; 
+      background-color: #3B82F6; 
+      }
+      .blue:hover {
+      background-color: #2563EB; 
+      }
+
+      .green{
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem; 
+        padding-left: 1rem;
+        padding-right: 1rem; 
+        margin-right: 0.5rem; 
+        border-radius: 0.5rem; 
+        font-weight: 700; 
+        color: #ffffff; 
+        background-color: #10B981; 
+        }
+        
+         .green:hover {
+        background-color: #059669; 
+        }
+
+
+</style>
+
+
+<body class="">
+  <div class="one">
+      <div class="three">
+          <h1 class="four">Teacher Login Panel</h1>
+          <p style="margin-bottom: 1rem;">Welcome to ST Lab</p>
+          <hr style="margin-bottom: 1rem; width: 100%; ">
+          <p style="margin-bottom: 1.5rem; ">Please select any to continue...</p>
+          <a class="green" href="teachersignup" role="button">Apply Now</a>
+          <a class="blue" href="teacherlogin" role="button">Login</a>
+      </div>
+  </div>
+</body>
+{% endblock content %}
+
