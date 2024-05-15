@@ -1,5 +1,5 @@
 """
-by sumit kumar
+by ST Lab team
 written by fb.com/sumit.luv
 
 """
