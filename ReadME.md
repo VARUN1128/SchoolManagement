@@ -1,9 +1,8 @@
-# ST Lab - School Management System
+# EduManage
 
 ## Introduction
-Welcome to ST Lab, a comprehensive school management system designed to streamline the administrative and academic functions of educational institutions. ST Lab provides a robust platform for managing student information, courses, faculty, and various other aspects of school operations.
+Welcome to EduManage, a comprehensive school management system designed to streamline the administrative and academic functions of educational institutions. EduManage provides a robust platform for managing student information, courses, faculty, and various other aspects of school operations.
 
-And if you like this project then ADD a STAR ⭐️  to this project 👆
 
 ## How to Install and Run this project?
 
